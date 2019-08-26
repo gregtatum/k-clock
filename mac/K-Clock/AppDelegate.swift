@@ -14,7 +14,6 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
 
     func applicationDidFinishLaunching(_ aNotification: Notification) {
-        print("test")
         // Insert code here to initialize your application
         
         statusBarItem = NSStatusBar.system.statusItem(
@@ -52,7 +51,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
             let secondsRemainderWithoutLastSecond = Int(floor(Double(secondsRemainder) / 10))
             
             // Update the button title
-            self.statusBarItem.button?.title = "\(kseconds):\(secondsRemainderWithoutLastSecond) KS"
+            self.statusBarItem.button?.title = "\(kseconds):\(secondsRemainderWithoutLastSecond) KB"
         }
     }
     
