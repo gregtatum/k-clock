@@ -18,7 +18,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         
         statusBarItem = NSStatusBar.system.statusItem(
             withLength: NSStatusItem.variableLength)
-        statusBarItem.button?.title = "--:-- KS"
+        statusBarItem.button?.title = "--:-- KB"
         
         let statusBarMenu = NSMenu(title: "K-Clock Menu")
         statusBarItem.menu = statusBarMenu
